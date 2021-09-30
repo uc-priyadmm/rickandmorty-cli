@@ -42,6 +42,6 @@ Execute the script
   
 ## Feedback
 
-If you have any feedback, please reach out to us at priyadmm@mail.uc.edu
+If you have any feedback, please reach out to me at priyadmm@mail.uc.edu
 
   
