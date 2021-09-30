@@ -13,6 +13,10 @@ echo Please Entre Character ID Number.
 
 echo ""
 
+echo "272 for Principal Vagina , 278 for Regional Manager Rick, 392 for Bearded Morty"
+
+echo""
+
 read ID
 if [[ $ID -gt 671 ]]
 then
