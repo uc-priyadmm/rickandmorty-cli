@@ -1,39 +1,47 @@
-# Rick and Morty CLI
+# Rick and Morty CLI  🛸 🌍
 
-This command line tool utilizes the [rickandmortyapi.com](https://rickandmortyapi.com/) to display character and their attributes in the terminal. Lets get schwifty !
+`Rick and Morty CLI` is an interactive bash program that outputs colored character images and attributes directly to the terminal using the 
+[Rick and Morty API](https://rickandmortyapi.com/).
+## Demo
 
-Install Dependencies 
+
+
+  ![](Images/demo.gif)
+## Run Locally
+
+Clone the project
 
 ```bash
-brew install graphicsmagick
-npm install -g img2ascii
+  git clone https://github.com/uc-priyadmm/rickandmorty-cli
 ```
 
-Running the script should provide with an option to enter character ID. The Rick and Morty Universe currently has 671 characters.
+Go to the project directory
 
+```bash
+  cd rickandmorty-cli
+```
 
+Install dependencies
 
-The script would then provide the user with:
+```bash
+ brew install graphicsmagick
+ npm install -g img2ascii
+```
 
-- Image
-- Character Name
-- Characters Planet
-- Characters Last Known Location
-- Characters Species
-- Characters Mortality 
+Execute the script
 
-#EXAMPLE
+```bash
+  ./rickandmorty.sh
+```
 
-Script Launch
+  
+## Authors
 
-![](Images/Screenshot%202021-09-29%20at%207.47.46%20AM.png)
+- [@Mayank Mani Priyadarshi](https://www.linkedin.com/in/priyadmm/)
 
-OUTPUT
+  
+## Feedback
 
-![](Images/Screenshot%202021-09-29%20at%208.33.53%20AM.png)
+If you have any feedback, please reach out to us at priyadmm@mail.uc.edu
 
-![](Images/Screenshot%202021-09-29%20at%208.33.40%20AM.png)
-
-![](Images/Screenshot%202021-09-29%20at%208.32.50%20AM.png)
-
-![](Images/Screenshot%202021-09-29%20at%208.25.30%20AM.png)
+  
