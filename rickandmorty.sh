@@ -7,14 +7,17 @@ img2ascii https://avatarfiles.alphacoders.com/297/297730.jpg
 echo ....................................... and Morty CLI by Mayank Mani Priyadarshi
 
 echo ""
+
+
 echo Please Entre Character ID Number.
 
 echo ""
 
 read ID
-
-echo""
-
+if [[ $ID -gt 671 ]]
+then
+  echo The Rick and Morty Universe current has 671 characters, Please Entre a value less than 641.
+else
 
 img2ascii https://rickandmortyapi.com/api/character/avatar/$ID.jpeg      #CONVERT IMAGE TO ASCII
 
@@ -32,13 +35,14 @@ ORIGIN=$(echo $DATA | jq .origin.name)
 echo ""
 echo ""
 
-echo Name of the character is "$NAME"
+echo  - Name of the character is "$NAME"
 echo ""
-echo ID belongs to $ORIGIN
+echo  -  ID belongs to $ORIGIN
 echo ""
-echo Last known location is the "$LOCATION"
+echo  - Last known location is the "$LOCATION"
 echo ""
-echo ID belongs to "$SPECIES" species
+echo  -  ID belongs to "$SPECIES" species
 echo ""
-echo Mortality status is currently $STATUS
+echo  - Mortality status is currently $STATUS
 echo ""
+fi
